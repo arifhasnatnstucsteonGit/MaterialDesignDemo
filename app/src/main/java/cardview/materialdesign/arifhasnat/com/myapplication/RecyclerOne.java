@@ -4,7 +4,6 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
-import android.widget.EditText;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -21,13 +20,6 @@ public class RecyclerOne extends AppCompatActivity {
         setSupportActionBar(toolbar);
         recyclerView= (RecyclerView) findViewById(R.id.recyleOne);
 
-        String a="";
-        String b="";
-        a.equalsIgnoreCase(b);
-
-        EditText editText= (EditText) findViewById(R.id.editText);
-        String editTextString=editText.getText().toString();
-        editTextString.equalsIgnoreCase(a);
 
 
 
